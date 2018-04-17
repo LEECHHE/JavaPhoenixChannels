@@ -1,7 +1,7 @@
 package org.phoenixframework.channels
 
-import Specification
-import BlockingVariable
+import spock.lang.Specification
+import spock.util.concurrent.BlockingVariable
 
 class SocketSpec extends Specification {
 
@@ -24,6 +24,7 @@ class SocketSpec extends Specification {
     }
 
     def "Socket connects"() {
+        setup()
         when:
         socket.connect()
         then:
@@ -31,6 +32,7 @@ class SocketSpec extends Specification {
     }
 
     def "Channel subscribe"() {
+        setup()
         def envelope = new BlockingVariable<Envelope>()
         def callback = new IMessageCallback() {
             @Override
