@@ -1,3 +1,7 @@
+# DEPRECATED
+We made [new library](https://github.com/chain-partners/kotlinphoenixchannel) in Kotlin to resolve the issues in this library. 
+We recommend to use it : [KotlinPhoenixChannel](https://github.com/chain-partners/kotlinphoenixchannel)
+
 # Phoenix Channel Client for Java and Android
 
 JavaPhoenixChannels is a Java and Android client library for the Channels API in the [Phoenix Framework](http://www.phoenixframework.org/). Its primary purpose is to ease development of real time messaging apps for Android using an Elixir/Phoenix backend. For more about the Elixir language and the massively scalable and reliable systems you can build with Phoenix, see http://elixir-lang.org and http://www.phoenixframework.org.
